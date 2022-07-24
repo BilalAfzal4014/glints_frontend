@@ -1,7 +1,8 @@
+//import 'dotenv/config';
 import axios from "axios";
 import * as toastr from "toastr";
 
-const baseUrl = process.env.APP_BASE_URL || "http://localhost:4000/v1";
+const baseUrl = process.env.REACT_APP_APP_BASE_URL;
 
 const getToken = () => {
     return localStorage.getItem("token");
