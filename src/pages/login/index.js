@@ -7,8 +7,8 @@ export default function Login() {
     const {dispatchToken} = useContext(AppContext);
 
     const [user, setUser] = useState({
-        email: "bilal.afzal@climbcredit.com",
-        password: "123431"
+        email: "",
+        password: ""
     });
 
     const updateUser = (key, value) => {
